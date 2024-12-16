@@ -1,0 +1,35 @@
+{
+    "name": "outsera-test",
+    "version": "1.0.0",
+    "description": "API RESTful para análise dos intervalos de prêmios do Golden Raspberry Awards.",
+    "main": "src/server/index.js",
+    "scripts": {
+        "start": "node src/server/index.js",
+        "test": "jest",
+        "dev": "nodemon src/server/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/seu-usuario/outsera-test.git"
+    },
+    "keywords": [
+        "API",
+        "Golden Raspberry Awards",
+        "RESTful",
+        "Node.js"
+    ],
+    "author": "Seu Nome",
+    "license": "MIT",
+    "dependencies": {
+        "csv-parse": "^5.3.10",
+        "dotenv": "^16.4.7",
+        "express": "^4.18.2",
+        "log4js": "^6.9.1",
+        "sqlite3": "^5.1.4"
+    },
+    "devDependencies": {
+        "jest": "^29.6.1",
+        "nodemon": "^3.0.1",
+        "supertest": "^6.3.3"
+    }
+}
